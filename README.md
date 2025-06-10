@@ -1,7 +1,7 @@
 # Detecting-and-Preventing-the-DDoS-attack-in-Network
 This project implements an AI-based detection system for identifying and mitigating Distributed Denial-of-Service (DDoS) attacks in Software-Defined Networks (SDN). Using machine learning models trained on network traffic data, the system aims to enhance network security by providing early and accurate detection of malicious activity.
 
-##🔍 Key Features
+## 🔍 Key Features
 
 * 📊 **Data preprocessing and feature selection**
 * 🧠 **Machine Learning models for DDoS detection**

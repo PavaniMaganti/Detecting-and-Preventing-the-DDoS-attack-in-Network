@@ -1,23 +1,19 @@
 # Detecting-and-Preventing-the-DDoS-attack-in-Network
 This project implements an AI-based detection system for identifying and mitigating Distributed Denial-of-Service (DDoS) attacks in Software-Defined Networks (SDN). Using machine learning models trained on network traffic data, the system aims to enhance network security by providing early and accurate detection of malicious activity.
-🔍 Key Features
+##🔍 Key Features
 
-* 📊 Data preprocessing and feature selection
+* 📊 **Data preprocessing and feature selection**
 * 🧠 **Machine Learning models for DDoS detection**
 * ✅ **Model evaluation using accuracy, precision, recall, and F1-score**
 * 🚨 **Real-time detection and alerting capabilities (extendable)**
 * 🛡️ **Support for prevention techniques based on flow rules in SDN**
 
----
-
 ## 📁 Dataset
 
-* **Dataset Name**: `_sdn`
+* **Dataset Name**: `dataset_sdn`
 * **Description**: The dataset includes labeled traffic data representing both normal and malicious (DDoS) activities. It consists of features such as packet sizes, flow durations, and protocol types.
-* **Source**: Add source or dataset link if available publicly.
+* **Source**:the dataset can be found in Kaggle.
 * **Format**: CSV file containing network traffic features used to train the detection models.
-
----
 
 ## 🛠️ Tools & Technologies Used
 
@@ -36,48 +32,19 @@ This project implements an AI-based detection system for identifying and mitigat
   * K-Nearest Neighbors (KNN)
   * Neural Networks
 
----
-
 ## 📊 Results
 
-| Model          | Accuracy | Precision | Recall | F1-Score |
-| -------------- | -------- | --------- | ------ | -------- |
-| Random Forest  | 99%      | 0.99      | 0.98   | 0.985    |
-| Neural Network | 98.5%    | 0.985     | 0.97   | 0.977    |
-| SVM            | 96%      | 0.96      | 0.94   | 0.95     |
-| KNN            | 97%      | 0.965     | 0.95   | 0.957    |
+Model  	Accuracy  	Precision	   Recall	   F1-Score
+CNN	     98.1%	     0.9869   	  0.9893	   0.9881
+LSTM	    97.9%	     0.9704	     0.9854	   0.9779
+CNN-LSTM	98.3%	     0.9760      0.9863    0.9811
 
-> 🏆 **Best-performing models**: Random Forest and Neural Network
-
----
+🚀 CNN-LSTM outperformed all other models, making it the optimal choice for SDN-based DDoS detection.
 
 ## 🚀 How to Run the Project
 
-1. **Clone the repository**:
-
-   ```bash
-   git clone <your_repo_url>
-   ```
-2. **Open the notebook**:
-
-   * Use **Jupyter Notebook** or **Google Colab**
-3. **Install dependencies**:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. **Run the notebook and follow the steps**:
-
-   * Load and preprocess the dataset
-   * Train and evaluate the models
-   * Analyze performance metrics
-
----
-
-## 📫 Contact
-
-For questions, issues, or contributions, feel free to open an issue or contact me directly!
-
----
-
-Let me know if you'd like to include diagrams, a live demo link, a flowchart of the architecture, or specific prevention mechanisms in SDN (like using OpenFlow rules).
+*Clone the repository: git clone <your_repo_url>
+*Open the Jupyter notebook in Google Colab or Jupyter Notebook.
+*Follow the steps in the notebook to train the model and generate predictions.
+*Feel free to reach out if you have any questions or issues running the code!
+   

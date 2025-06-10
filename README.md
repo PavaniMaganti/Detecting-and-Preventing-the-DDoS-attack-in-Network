@@ -33,23 +33,23 @@ This project implements an AI-based detection system for identifying and mitigat
 
 ## 📊 Results
 
-Model  	Accuracy  	Precision	   Recall	   F1-Score
+Model      	Accuracy  	Precision	   Recall	   F1-Score
 
-CNN	     98.1%	     0.9869   	  0.9893	   0.9881
+CNN	         98.1%	     0.9869   	  0.9893	   0.9881
 
-LSTM	    97.9%	     0.9704	     0.9854	   0.9779
+LSTM	        97.9%	     0.9704	     0.9854	   0.9779
 
-CNN-LSTM	98.3%	     0.9760      0.9863    0.9811
+CNN-LSTM    	98.3%	     0.9760      0.9863    0.9811
 
 🚀 CNN-LSTM outperformed all other models, making it the optimal choice for SDN-based DDoS detection.
 
 ## 🚀 How to Run the Project
 
-*Clone the repository: git clone <your_repo_url>
+* Clone the repository: git clone <your_repo_url>
 
-*Open the Jupyter notebook in Google Colab or Jupyter Notebook.
+* Open the Jupyter notebook in Google Colab or Jupyter Notebook.
 
-*Follow the steps in the notebook to train the model and generate predictions.
+* Follow the steps in the notebook to train the model and generate predictions.
 
-*Feel free to reach out if you have any questions or issues running the code!
+* Feel free to reach out if you have any questions or issues running the code!
    
